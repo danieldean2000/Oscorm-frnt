@@ -122,32 +122,32 @@ export default function Footer() {
                         <h3 className="text-lg font-semibold mb-6 text-white">Company</h3>
                         <ul className="space-y-3">
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/about-us" className="text-gray-400 hover:text-white transition-colors">
                                     About Us
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">
                                     Pricing
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">
                                     Blog
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/case-studies" className="text-gray-400 hover:text-white transition-colors">
                                     Case Studies
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/careers" className="text-gray-400 hover:text-white transition-colors">
                                     Careers
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                                <Link href="/contact-us" className="text-gray-400 hover:text-white transition-colors">
                                     Contact Us
                                 </Link>
                             </li>

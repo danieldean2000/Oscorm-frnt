@@ -22,12 +22,12 @@ export default function RelatedPosts({ posts }: RelatedPostsProps) {
               key={post.id}
               className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col hover:-translate-y-1"
             >
-              <div className="relative w-full h-48 overflow-hidden bg-gray-200">
+              <div className="relative w-full aspect-[16/9] overflow-hidden bg-gray-200">
                 <Image
                   src={post.image}
                   alt={post.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="object-contain group-hover:scale-105 transition-transform duration-300"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>

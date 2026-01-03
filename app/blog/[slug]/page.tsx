@@ -1,6 +1,6 @@
 'use client';
 
-import { use, useEffect, useState } from 'react';
+import { use, useEffect, useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchPostBySlug, fetchAllPosts, fetchCategories, selectCurrentPost, selectAllPosts } from '../../../lib/redux/blog';
 import type { RootState } from '../../../lib/redux/store';
@@ -13,6 +13,7 @@ import RelatedPosts from '@/components/Blog/related-posts';
 import BackToBlog from '@/components/Blog/back-to-blog';
 import BlogCategoriesSidebar from '@/components/Blog/blog-categories-sidebar';
 import BlogPopularPosts from '@/components/Blog/blog-popular-posts';
+import BlogComments from '@/components/Blog/blog-comments';
 import Image from 'next/image';
 
 export default function BlogDetailsPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -24,6 +25,20 @@ export default function BlogDetailsPage({ params }: { params: Promise<{ slug: st
     const error = useSelector((state: RootState) => state.blog.error);
     const [showShareMenu, setShowShareMenu] = useState(false);
     const [copied, setCopied] = useState(false);
+    
+    // Audio/TTS states
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [isPaused, setIsPaused] = useState(false);
+    const [isMuted, setIsMuted] = useState(false);
+    const [isLoadingAudio, setIsLoadingAudio] = useState(false);
+    const [currentTime, setCurrentTime] = useState(0);
+    const [totalDuration, setTotalDuration] = useState(0);
+    const speechSynthesisRef = useRef<SpeechSynthesisUtterance | null>(null);
+    const isSpeakingRef = useRef(false);
+    const startTimeRef = useRef<number>(0);
+    const progressIntervalRef = useRef<NodeJS.Timeout | null>(null);
+    const textContentRef = useRef<string>('');
+    const currentTextPositionRef = useRef<number>(0);
 
     // Unwrap the params Promise
     const { slug } = use(params);
@@ -40,6 +55,345 @@ export default function BlogDetailsPage({ params }: { params: Promise<{ slug: st
             dispatch(fetchCategories() as any);
         }
     }, [slug, dispatch, allPosts.length, categories.length]);
+
+    // Cleanup speech when component unmounts or slug changes
+    useEffect(() => {
+        return () => {
+            if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+            setIsPlaying(false);
+            setIsPaused(false);
+            isSpeakingRef.current = false;
+            if (progressIntervalRef.current) {
+                clearInterval(progressIntervalRef.current);
+                progressIntervalRef.current = null;
+            }
+        };
+    }, [slug]);
+
+    // Stop audio when currentPost changes
+    useEffect(() => {
+        if (currentPost && typeof window !== 'undefined' && 'speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            setIsPlaying(false);
+            setIsPaused(false);
+            isSpeakingRef.current = false;
+            speechSynthesisRef.current = null;
+            setCurrentTime(0);
+            textContentRef.current = '';
+            currentTextPositionRef.current = 0;
+            if (progressIntervalRef.current) {
+                clearInterval(progressIntervalRef.current);
+                progressIntervalRef.current = null;
+            }
+        }
+    }, [currentPost?.id]);
+
+    // Extract plain text from HTML content
+    const extractTextFromHTML = (html: string): string => {
+        if (typeof window === 'undefined') return '';
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        return tempDiv.textContent || tempDiv.innerText || '';
+    };
+
+    // Calculate estimated duration based on text length (average reading speed: 150 words/min)
+    const calculateDuration = (text: string): number => {
+        const words = text.split(/\s+/).length;
+        const wordsPerMinute = 150;
+        const minutes = words / wordsPerMinute;
+        return Math.ceil(minutes * 60); // Return in seconds
+    };
+
+    // Format time as MM:SS
+    const formatTime = (seconds: number): string => {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+    };
+
+    // Initialize and play audio
+    const handlePlayAudio = (startFromTime: number = 0) => {
+        if (!currentPost || typeof window === 'undefined' || !('speechSynthesis' in window)) {
+            console.log('Speech synthesis not available');
+            return;
+        }
+
+        let textContent = textContentRef.current;
+        if (!textContent) {
+            textContent = extractTextFromHTML(currentPost.content || '');
+            textContentRef.current = textContent;
+        }
+        
+        if (!textContent.trim()) {
+            console.log('No text content to play');
+            return;
+        }
+
+        // Reset speech synthesis queue to avoid errors
+        try {
+            window.speechSynthesis.cancel();
+            // Small delay to ensure cancellation is processed
+            setTimeout(() => {
+                // Clear any existing intervals
+                if (progressIntervalRef.current) {
+                    clearInterval(progressIntervalRef.current);
+                    progressIntervalRef.current = null;
+                }
+
+                setIsLoadingAudio(true);
+                
+                // Calculate text position based on time (approximate)
+                // Average reading speed: 150 words/min = 2.5 words/sec
+                const wordsPerSecond = 2.5;
+                const wordsToSkip = Math.floor(startFromTime * wordsPerSecond);
+                const words = textContent.split(/\s+/);
+                const textToSpeak = words.slice(wordsToSkip).join(' ');
+                
+                if (!textToSpeak.trim()) {
+                    setIsLoadingAudio(false);
+                    setIsPlaying(false);
+                    setCurrentTime(totalDuration);
+                    return;
+                }
+                
+                currentTextPositionRef.current = wordsToSkip;
+
+                // Create new speech utterance
+                const utterance = new SpeechSynthesisUtterance(textToSpeak);
+                utterance.lang = 'en-US';
+                utterance.rate = 1.0;
+                utterance.pitch = 1.0;
+                utterance.volume = isMuted ? 0 : 1;
+
+                // Calculate and set total duration
+                const duration = calculateDuration(textContent);
+                setTotalDuration(duration);
+                setCurrentTime(startFromTime);
+                startTimeRef.current = Date.now() - (startFromTime * 1000);
+
+                // Store utterance reference
+                speechSynthesisRef.current = utterance;
+
+                // Event handlers
+                utterance.onstart = () => {
+                    setIsPlaying(true);
+                    setIsPaused(false);
+                    isSpeakingRef.current = true;
+                    setIsLoadingAudio(false);
+                    startTimeRef.current = Date.now() - (startFromTime * 1000);
+                    
+                    // Clear any existing interval
+                    if (progressIntervalRef.current) {
+                        clearInterval(progressIntervalRef.current);
+                    }
+                    
+                    // Start progress tracking
+                    progressIntervalRef.current = setInterval(() => {
+                        setCurrentTime((prevTime) => {
+                            const elapsed = (Date.now() - startTimeRef.current) / 1000;
+                            const newTime = Math.min(elapsed + startFromTime, duration);
+                            return newTime;
+                        });
+                    }, 100);
+                };
+
+                utterance.onend = () => {
+                    setIsPlaying(false);
+                    setIsPaused(false);
+                    isSpeakingRef.current = false;
+                    speechSynthesisRef.current = null;
+                    setCurrentTime(totalDuration); // Set to end time
+                    if (progressIntervalRef.current) {
+                        clearInterval(progressIntervalRef.current);
+                        progressIntervalRef.current = null;
+                    }
+                };
+
+                utterance.onerror = (event: SpeechSynthesisErrorEvent) => {
+                    // Handle different error types
+                    const errorType = event.error || 'unknown';
+                    
+                    // Don't log if it's just an interruption
+                    if (errorType !== 'interrupted' && errorType !== 'canceled') {
+                        console.warn('Speech synthesis error:', errorType);
+                    }
+                    
+                    setIsPlaying(false);
+                    setIsPaused(false);
+                    isSpeakingRef.current = false;
+                    setIsLoadingAudio(false);
+                    speechSynthesisRef.current = null;
+                    
+                    if (progressIntervalRef.current) {
+                        clearInterval(progressIntervalRef.current);
+                        progressIntervalRef.current = null;
+                    }
+                    
+                    // Reset speech synthesis if there's a serious error
+                    if (errorType === 'synthesis-failed' || errorType === 'synthesis-unavailable') {
+                        window.speechSynthesis.cancel();
+                    }
+                };
+
+                // Speak the utterance with error handling
+                try {
+                    window.speechSynthesis.speak(utterance);
+                } catch (error) {
+                    console.error('Error speaking:', error);
+                    setIsLoadingAudio(false);
+                    setIsPlaying(false);
+                    speechSynthesisRef.current = null;
+                }
+            }, 50);
+        } catch (error) {
+            console.error('Error initializing speech:', error);
+            setIsLoadingAudio(false);
+            setIsPlaying(false);
+        }
+    };
+
+    // Pause audio
+    const handlePauseAudio = () => {
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+            try {
+                if (isPlaying && !isPaused) {
+                    // Pause
+                    window.speechSynthesis.pause();
+                    setIsPaused(true);
+                    // Stop progress tracking
+                    if (progressIntervalRef.current) {
+                        clearInterval(progressIntervalRef.current);
+                        progressIntervalRef.current = null;
+                    }
+                } else if (isPaused && isPlaying) {
+                    // Resume
+                    window.speechSynthesis.resume();
+                    setIsPaused(false);
+                    // Adjust start time to account for paused time
+                    startTimeRef.current = Date.now() - (currentTime * 1000);
+                    // Resume progress tracking
+                    if (progressIntervalRef.current) {
+                        clearInterval(progressIntervalRef.current);
+                    }
+                    progressIntervalRef.current = setInterval(() => {
+                        setCurrentTime((prevTime) => {
+                            const elapsed = (Date.now() - startTimeRef.current) / 1000;
+                            const newTime = Math.min(elapsed, totalDuration);
+                            return newTime;
+                        });
+                    }, 100);
+                }
+            } catch (error) {
+                console.error('Error pausing/resuming:', error);
+            }
+        }
+    };
+
+    // Stop audio
+    const handleStopAudio = () => {
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+            try {
+                window.speechSynthesis.cancel();
+                setIsPlaying(false);
+                setIsPaused(false);
+                isSpeakingRef.current = false;
+                speechSynthesisRef.current = null;
+                setCurrentTime(0);
+                // Clear progress interval
+                if (progressIntervalRef.current) {
+                    clearInterval(progressIntervalRef.current);
+                    progressIntervalRef.current = null;
+                }
+            } catch (error) {
+                console.error('Error stopping audio:', error);
+            }
+        }
+    };
+
+    // Rewind 15 seconds
+    const handleRewind = () => {
+        if (currentTime > 0) {
+            const wasPlaying = isPlaying;
+            const wasPaused = isPaused;
+            const newTime = Math.max(0, currentTime - 15);
+            
+            // Stop current playback
+            if (wasPlaying) {
+                window.speechSynthesis.cancel();
+                if (progressIntervalRef.current) {
+                    clearInterval(progressIntervalRef.current);
+                    progressIntervalRef.current = null;
+                }
+            }
+            
+            // Update time immediately
+            setCurrentTime(newTime);
+            startTimeRef.current = Date.now() - (newTime * 1000);
+            
+            // If was playing, restart from new position
+            if (wasPlaying) {
+                setIsPlaying(false);
+                setIsPaused(false);
+                setTimeout(() => {
+                    handlePlayAudio(newTime);
+                    if (wasPaused) {
+                        setTimeout(() => {
+                            handlePauseAudio();
+                        }, 100);
+                    }
+                }, 200);
+            }
+        }
+    };
+
+    // Fast forward 15 seconds
+    const handleFastForward = () => {
+        if (currentTime < totalDuration) {
+            const wasPlaying = isPlaying;
+            const wasPaused = isPaused;
+            const newTime = Math.min(totalDuration, currentTime + 15);
+            
+            // Stop current playback
+            if (wasPlaying) {
+                window.speechSynthesis.cancel();
+                if (progressIntervalRef.current) {
+                    clearInterval(progressIntervalRef.current);
+                    progressIntervalRef.current = null;
+                }
+            }
+            
+            // Update time immediately
+            setCurrentTime(newTime);
+            startTimeRef.current = Date.now() - (newTime * 1000);
+            
+            // If was playing, restart from new position
+            if (wasPlaying) {
+                setIsPlaying(false);
+                setIsPaused(false);
+                setTimeout(() => {
+                    handlePlayAudio(newTime);
+                    if (wasPaused) {
+                        setTimeout(() => {
+                            handlePauseAudio();
+                        }, 100);
+                    }
+                }, 200);
+            }
+        }
+    };
+
+    // Toggle mute
+    const handleToggleMute = () => {
+        if (speechSynthesisRef.current) {
+            const newMutedState = !isMuted;
+            setIsMuted(newMutedState);
+            speechSynthesisRef.current.volume = newMutedState ? 0 : 1;
+        } else {
+            setIsMuted(!isMuted);
+        }
+    };
 
     // Loading state
     if (loading) {
@@ -201,6 +555,111 @@ export default function BlogDetailsPage({ params }: { params: Promise<{ slug: st
                                 </div>
                             </div>
 
+                            {/* Horizontal Audio Player - Compact & Website Colors */}
+                            <div className="bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl p-2 sm:p-2.5 mb-4 sm:mb-6 shadow-sm border border-gray-200 dark:border-gray-700">
+                                <div className="flex items-center gap-1.5 sm:gap-2">
+                                    {/* Rewind Button (15s) */}
+                                    <button
+                                        onClick={handleRewind}
+                                        disabled={currentTime === 0}
+                                        className="relative flex flex-col items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-600 dark:text-gray-300 transition-all duration-200 hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+                                        aria-label="Rewind 15 seconds"
+                                        title="Rewind 15 seconds"
+                                    >
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="mb-0.5">
+                                            <polygon points="11 19 2 12 11 5 11 19"></polygon>
+                                            <polygon points="22 19 13 12 22 5 22 19"></polygon>
+                                        </svg>
+                                        <span className="text-[7px] font-semibold leading-none">15</span>
+                                    </button>
+
+                                    {/* Play/Pause Button - Website Blue */}
+                                    <button
+                                        onClick={() => {
+                                            if (!isPlaying) {
+                                                handlePlayAudio();
+                                            } else if (isPaused) {
+                                                handlePauseAudio();
+                                            } else {
+                                                handlePauseAudio();
+                                            }
+                                        }}
+                                        disabled={isLoadingAudio}
+                                        className="relative flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-[#2563eb] to-[#1d4ed8] hover:from-[#1d4ed8] hover:to-[#2563eb] text-white shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+                                        aria-label={isPlaying && !isPaused ? "Pause audio" : "Play audio"}
+                                        title={isPlaying && !isPaused ? "Pause audio" : "Play audio"}
+                                    >
+                                        {isLoadingAudio ? (
+                                            <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                            </svg>
+                                        ) : isPlaying && !isPaused ? (
+                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"></path>
+                                            </svg>
+                                        ) : (
+                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="ml-0.5">
+                                                <path d="M8 5v14l11-7z"></path>
+                                            </svg>
+                                        )}
+                                    </button>
+
+                                    {/* Fast Forward Button (15s) */}
+                                    <button
+                                        onClick={handleFastForward}
+                                        disabled={currentTime >= totalDuration || totalDuration === 0}
+                                        className="relative flex flex-col items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-600 dark:text-gray-300 transition-all duration-200 hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+                                        aria-label="Fast forward 15 seconds"
+                                        title="Fast forward 15 seconds"
+                                    >
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="mb-0.5">
+                                            <polygon points="13 19 22 12 13 5 13 19"></polygon>
+                                            <polygon points="2 19 11 12 2 5 2 19"></polygon>
+                                        </svg>
+                                        <span className="text-[7px] font-semibold leading-none">15</span>
+                                    </button>
+
+                                    {/* Progress Bar */}
+                                    <div className="flex-1 mx-1.5 sm:mx-2">
+                                        <div className="relative h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                            <div
+                                                className="absolute left-0 top-0 h-full bg-gradient-to-r from-[#2563eb] to-[#00D4AA] rounded-full transition-all duration-300"
+                                                style={{
+                                                    width: totalDuration > 0 ? `${(currentTime / totalDuration) * 100}%` : '0%'
+                                                }}
+                                            ></div>
+                                        </div>
+                                    </div>
+
+                                    {/* Time Display */}
+                                    <div className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-300 whitespace-nowrap min-w-[55px] sm:min-w-[65px] text-right">
+                                        {formatTime(currentTime)} / {formatTime(totalDuration || 0)}
+                                    </div>
+
+                                    {/* Volume/Mute Button */}
+                                    <button
+                                        onClick={handleToggleMute}
+                                        className="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-600 dark:text-gray-300 transition-all duration-200 hover:scale-105 active:scale-95"
+                                        aria-label={isMuted ? "Unmute audio" : "Mute audio"}
+                                        title={isMuted ? "Unmute audio" : "Mute audio"}
+                                    >
+                                        {isMuted ? (
+                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
+                                                <line x1="23" y1="9" x2="17" y2="15"></line>
+                                                <line x1="17" y1="9" x2="23" y2="15"></line>
+                                            </svg>
+                                        ) : (
+                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
+                                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                            </svg>
+                                        )}
+                                    </button>
+                                </div>
+                            </div>
+
                             {/* Article Content */}
                             <article className="bg-card rounded-lg sm:rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 shadow-sm border border-border">
                                 <div
@@ -278,12 +737,21 @@ export default function BlogDetailsPage({ params }: { params: Promise<{ slug: st
             {/* Related Posts */}
             <RelatedPosts posts={relatedPosts} />
 
+            {/* Comment Section - Below Related Articles */}
+            <section className="py-4 sm:py-6 md:py-8 lg:py-12">
+                <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+                    <div className="max-w-4xl mx-auto">
+                        <BlogComments postId={currentPost.id.toString()} postSlug={currentPost.slug} />
+                    </div>
+                </div>
+            </section>
+
             {/* Back to Blog */}
             <BackToBlog />
             
-            {/* Fixed Share Button - Left Side Bottom */}
+            {/* Fixed Share Button - Left Side Center */}
             {currentPost && (
-                <div className="fixed left-4 bottom-8 z-50 hidden md:block">
+                <div className="fixed left-4 top-1/2 -translate-y-1/2 z-50 hidden md:block">
                     <div className="relative flex flex-col items-center gap-3">
                         {/* Share Button */}
                         <button
