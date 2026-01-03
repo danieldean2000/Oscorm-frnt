@@ -1,0 +1,864 @@
+[00:00:08.459] Server  LOG     ✓ Ready in 5.6s
+[00:00:23.403] Server  LOG     ○ Compiling / ...
+[00:00:35.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:35.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.695] Browser LOG     Fetched categories: 4
+[00:01:38.695] Browser LOG     Categories set in Redux: 4
+[00:01:38.695] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:01:38.695] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:01:38.695] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:01:38.695] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:01:38.695] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:01:38.695] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:01:38.695] Browser LOG     Fetched posts: 6
+[00:01:38.695] Browser LOG     Posts set in Redux: 6
+[00:01:52.496] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:01:52.606] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:03:39.176] Browser LOG     Fetched categories: 4
+[00:03:39.176] Browser LOG     Categories set in Redux: 4
+[00:03:39.176] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:03:39.176] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:03:39.176] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:03:39.176] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:39.176] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:03:39.176] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:39.176] Browser LOG     Fetched posts: 6
+[00:03:39.176] Browser LOG     Posts set in Redux: 6
+[00:03:39.339] Browser LOG     Fetched categories: 4
+[00:03:39.339] Browser LOG     Categories set in Redux: 4
+[00:03:39.339] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:03:39.339] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:03:39.339] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:03:39.339] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:39.340] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:03:39.340] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:39.340] Browser LOG     Fetched posts: 6
+[00:03:39.340] Browser LOG     Posts set in Redux: 6
+[00:03:45.829] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:45.829] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:47.283] Browser LOG     Fetched posts: 6
+[00:03:47.283] Browser LOG     Posts set in Redux: 6
+[00:03:47.283] Browser LOG     Fetched categories: 4
+[00:03:47.283] Browser LOG     Categories set in Redux: 4
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:03:47.283] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:03:47.283] Browser LOG     Fetched posts: 6
+[00:03:47.283] Browser LOG     Posts set in Redux: 6
+[00:03:47.283] Browser LOG     Fetched categories: 4
+[00:03:47.283] Browser LOG     Categories set in Redux: 4
+[00:29:31.787] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:31.787] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:39.751] Browser LOG     Fetched categories: 4
+[00:29:39.751] Browser LOG     Categories set in Redux: 4
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:39.751] Browser LOG     Fetched posts: 6
+[00:29:39.751] Browser LOG     Posts set in Redux: 6
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:29:39.751] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:29:39.751] Browser LOG     Fetched posts: 6
+[00:29:39.751] Browser LOG     Posts set in Redux: 6
+[00:29:39.751] Browser LOG     Fetched categories: 4
+[00:29:39.751] Browser LOG     Categories set in Redux: 4
+[00:31:32.418] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:32.556] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:42.518] Browser LOG     Fetched categories: 4
+[00:31:42.518] Browser LOG     Categories set in Redux: 4
+[00:31:42.518] Browser LOG     Fetched categories: 4
+[00:31:42.518] Browser LOG     Categories set in Redux: 4
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:42.518] Browser LOG     Fetched posts: 6
+[00:31:42.518] Browser LOG     Posts set in Redux: 6
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:31:42.518] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:42.518] Browser LOG     Fetched posts: 6
+[00:31:42.518] Browser LOG     Posts set in Redux: 6
+[00:31:47.113] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:47.113] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:50.116] Browser LOG     Fetched posts: 6
+[00:31:50.116] Browser LOG     Posts set in Redux: 6
+[00:31:50.116] Browser LOG     Fetched categories: 4
+[00:31:50.116] Browser LOG     Categories set in Redux: 4
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:31:50.116] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:31:50.116] Browser LOG     Fetched posts: 6
+[00:31:50.116] Browser LOG     Posts set in Redux: 6
+[00:31:50.116] Browser LOG     Fetched categories: 4
+[00:31:50.116] Browser LOG     Categories set in Redux: 4
+[00:31:58.127] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:31:58.127] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:32:14.865] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:32:14.866] Browser LOG     Fetched posts: 6
+[00:32:14.866] Browser LOG     Posts set in Redux: 6
+[00:32:14.866] Browser LOG     Fetched categories: 4
+[00:32:14.866] Browser LOG     Categories set in Redux: 4
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[00:32:14.866] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:32:14.866] Browser LOG     Fetched posts: 6
+[00:32:14.866] Browser LOG     Posts set in Redux: 6
+[00:32:14.866] Browser LOG     Fetched categories: 4
+[00:32:14.866] Browser LOG     Categories set in Redux: 4
+[00:34:23.615] Server  LOG     ✓ Compiled in 1216ms
+[00:35:28.319] Server  LOG     ✓ Compiled in 1454ms
+[00:35:31.936] Server  LOG     ✓ Compiled in 344ms
+[00:35:41.813] Server  LOG     ✓ Compiled in 327ms
+[00:36:35.597] Server  LOG     ✓ Compiled in 2.6s
+[00:36:40.009] Server  LOG     ✓ Compiled in 3.2s
+[00:45:47.942] Server  LOG     ✓ Compiled in 353ms
+[00:54:40.677] Server  LOG     ✓ Compiled in 1167ms
+[00:54:47.234] Server  LOG     ✓ Compiled in 324ms
+[00:54:47.544] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Workforces","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:54:47.544] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Workforces","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:55:29.044] Server  LOG     ✓ Compiled in 319ms
+[00:55:34.153] Server  LOG     ✓ Compiled in 180ms
+[00:55:50.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:53.227] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":null,"postId":5,"postTitle":"New Features in TypeScript 5.0...","transformed":"/images/home/services/AI-2.jpg"}
+[00:55:53.442] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:55:53.442] Browser LOG     Fetched posts: 6
+[00:55:53.442] Browser LOG     Posts set in Redux: 6
+[00:55:53.574] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:55:53.696] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":null,"postId":5,"postTitle":"New Features in TypeScript 5.0...","transformed":"/images/home/services/AI-2.jpg"}
+[00:56:27.075] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:56:27.075] Browser LOG     Fetched posts: 6
+[00:56:27.075] Browser LOG     Posts set in Redux: 6
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":null,"postId":5,"postTitle":"New Features in TypeScript 5.0...","transformed":"/images/home/services/AI-2.jpg"}
+[00:56:27.181] Browser LOG     🖼️ Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[00:56:27.181] Browser LOG     Fetched posts: 6
+[00:56:27.181] Browser LOG     Posts set in Redux: 6
+[00:56:28.458] Browser LOG     Fetched categories: 4
+[00:56:28.458] Browser LOG     Categories set in Redux: 4
+[00:56:28.489] Browser LOG     Fetched categories: 4
+[00:56:28.489] Browser LOG     Categories set in Redux: 4
+[00:59:50.501] Server  LOG     ✓ Compiled in 181ms
+[01:00:01.876] Server  LOG     ✓ Compiled in 217ms
+[01:00:04.356] Server  LOG     ✓ Compiled in 190ms
+[01:00:28.154] Server  LOG     ✓ Compiled in 193ms
+[01:00:41.463] Server  LOG     ✓ Compiled in 167ms
+[01:01:48.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:50.405] Browser LOG     📦 Raw backend post data (first post): {"allKeys":["id","title","slug","content","excerpt","category_id","tags","status","meta_title","meta_description","featured_image","image_alt","author_id","views","created_at","updated_at","published_at","author_name","author_email","category_name"],"featured_image":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","id":10,"title":"The Future of Global Teams: Human + AI Hybrid Workforces"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","hasImage":true,"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Work...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","hasImage":true,"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","hasImage":true,"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","hasImage":true,"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"null","hasImage":false,"original":null,"postId":5,"postTitle":"New Features in TypeScript 5.0...","transformed":"/images/home/services/AI-2.jpg"}
+[01:01:50.405] Browser LOG     🖼️ Image URL transformed: {"cleaned":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","hasImage":true,"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components...","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:01:50.405] Browser LOG     ✅ Fetched and transformed posts: 6
+[01:01:50.405] Browser LOG     🖼️ First post image URL: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10}
+[01:01:50.405] Browser LOG     Posts set in Redux: 6
+[01:01:50.618] Browser LOG     Fetched categories: 4
+[01:01:50.618] Browser LOG     Categories set in Redux: 4
+[01:01:50.618] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"/images/home/services/AI-2.jpg","postId":5,"postTitle":"New Features in TypeScript 5.0"}
+[01:01:50.618] Browser LOG     ✅ Featured image loaded successfully: {"imageUrl":"/images/home/services/AI-2.jpg","postId":5,"postTitle":"New Features in TypeScript 5.0"}
+[01:01:51.413] Browser ERROR   ❌ Featured image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components"}
+[01:01:51.413] Browser ERROR   ❌ Image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum"}
+[01:01:51.413] Browser ERROR   ❌ Image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components"}
+[01:01:51.413] Browser ERROR   ❌ Featured image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum"}
+[01:01:51.413] Browser LOG     ✅ Featured image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components"}
+[01:01:51.413] Browser ERROR   ❌ Image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Workforces"}
+[01:01:51.413] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum"}
+[01:01:51.413] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":4,"postTitle":"2Understanding React Server Components"}
+[01:01:51.413] Browser LOG     ✅ Featured image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","postId":6,"postTitle":"Lorem Ipsum"}
+[01:01:51.413] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","postId":10,"postTitle":"The Future of Global Teams: Human + AI Hybrid Workforces"}
+[01:01:51.619] Browser ERROR   ❌ Image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2"}
+[01:01:51.619] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","postId":9,"postTitle":"testing 2"}
+[01:01:51.619] Browser ERROR   ❌ Image failed to load: {"attemptedUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog"}
+[01:01:51.619] Browser LOG     ✅ Image loaded successfully: {"imageUrl":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","postId":8,"postTitle":"Introduction to Oblog"}
+[01:02:01.152] Server  LOG     ✓ Compiled in 570ms
+[01:02:08.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:09.874] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:02:09.874] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:02:09.874] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:02:09.874] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:02:09.874] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:02:09.874] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:02:09.874] Browser LOG     Fetched posts: 6
+[01:02:09.874] Browser LOG     Posts set in Redux: 6
+[01:02:09.874] Browser LOG     Fetched categories: 5
+[01:02:09.874] Browser LOG     Categories set in Redux: 5
+[01:03:26.431] Server  LOG     ✓ Compiled in 450ms
+[01:03:31.821] Server  LOG     ✓ Compiled in 685ms
+[01:04:13.635] Server  LOG     ✓ Compiled in 321ms
+[01:04:17.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:20.198] Browser LOG     Fetched categories: 5
+[01:04:20.198] Browser LOG     Categories set in Redux: 5
+[01:04:20.409] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:04:20.409] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:04:20.409] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:04:20.409] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:04:20.409] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:04:20.409] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:04:20.409] Browser LOG     Fetched posts: 6
+[01:04:20.409] Browser LOG     Posts set in Redux: 6
+[01:05:37.612] Server  LOG     ✓ Compiled in 585ms
+[01:05:45.790] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[01:05:48.800] Server  LOG     ○ Compiling /_error ...
+[01:06:16.120] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:16.120] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:17.364] Server  LOG     ✓ Compiled in 279ms
+[01:06:19.211] Server  LOG     ✓ Compiled in 207ms
+[01:06:21.176] Server  LOG     ✓ Compiled in 184ms
+[01:06:23.010] Server  LOG     ✓ Compiled in 189ms
+[01:06:28.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:29.178] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:29.288] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:30.233] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:30.234] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:06:30.234] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:06:30.234] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:30.234] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:06:30.234] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:30.234] Browser LOG     Fetched posts: 6
+[01:06:30.234] Browser LOG     Posts set in Redux: 6
+[01:06:30.234] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:33.410] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:33.411] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:06:33.411] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:06:33.411] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:33.411] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:06:33.411] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:33.411] Browser LOG     Fetched posts: 6
+[01:06:33.411] Browser LOG     Posts set in Redux: 6
+[01:06:34.365] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:06:34.365] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:06:34.365] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:06:34.365] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:34.365] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:06:34.365] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"https://competent-shirley.72-61-78-56.plesk.page/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:06:34.365] Browser LOG     Fetched posts: 6
+[01:06:34.365] Browser LOG     Posts set in Redux: 6
+[01:06:34.712] Browser LOG     Fetched categories: 5
+[01:06:34.712] Browser LOG     Categories set in Redux: 5
+[01:06:34.712] Browser LOG     Fetched categories: 5
+[01:06:34.712] Browser LOG     Categories set in Redux: 5
+[01:06:38.993] Server  LOG     ✓ Compiled in 850ms
+[01:06:42.844] Server  LOG     ✓ Compiled in 555ms
+[01:06:50.529] Server  LOG     ✓ Compiled in 497ms
+[01:06:59.367] Server  LOG     ✓ Compiled in 241ms
+[01:07:01.409] Server  LOG     ✓ Compiled in 496ms
+[01:07:03.446] Server  LOG     ✓ Compiled in 641ms
+[01:07:05.934] Server  LOG     ✓ Compiled in 232ms
+[01:07:14.698] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:07:14.809] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:07:22.089] Server  WARN    Failed to set fetch cache "https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png" Error: Failed to set Next.js data cache for https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png, items over 2MB can not be cached (2116982 bytes)
+[01:07:38.832] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:07:38.832] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:07:38.832] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:07:38.832] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:07:38.832] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:07:38.832] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:07:38.832] Browser LOG     Fetched posts: 6
+[01:07:38.832] Browser LOG     Posts set in Redux: 6
+[01:07:39.098] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:07:39.098] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:07:39.098] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:07:39.098] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:07:39.098] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:07:39.098] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:07:39.098] Browser LOG     Fetched posts: 6
+[01:07:39.098] Browser LOG     Posts set in Redux: 6
+[01:07:39.098] Browser LOG     Fetched categories: 7
+[01:07:39.098] Browser LOG     Categories set in Redux: 7
+[01:07:39.098] Browser LOG     Fetched categories: 7
+[01:07:39.098] Browser LOG     Categories set in Redux: 7
+[01:08:10.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:11.516] Browser LOG     Fetched categories: 7
+[01:08:11.516] Browser LOG     Categories set in Redux: 7
+[01:08:11.516] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:08:11.516] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:08:11.516] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:08:11.516] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:08:11.516] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:08:11.516] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:08:11.516] Browser LOG     Fetched posts: 6
+[01:08:11.516] Browser LOG     Posts set in Redux: 6
+[01:08:19.521] Server  WARN    Failed to set fetch cache "https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png" Error: Failed to set Next.js data cache for https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png, items over 2MB can not be cached (2116982 bytes)
+[01:11:10.707] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:11:10.707] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:11:55.688] Browser LOG     Fetched categories: 7
+[01:11:55.688] Browser LOG     Categories set in Redux: 7
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:11:55.688] Browser LOG     Fetched posts: 6
+[01:11:55.688] Browser LOG     Posts set in Redux: 6
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:11:55.688] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:11:55.688] Browser LOG     Fetched posts: 6
+[01:11:55.688] Browser LOG     Posts set in Redux: 6
+[01:11:55.688] Browser LOG     Fetched categories: 7
+[01:11:55.688] Browser LOG     Categories set in Redux: 7
+[01:12:00.649] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:00.649] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:06.774] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:06.775] Browser LOG     Fetched posts: 6
+[01:12:06.775] Browser LOG     Posts set in Redux: 6
+[01:12:06.775] Browser LOG     Fetched categories: 9
+[01:12:06.775] Browser LOG     Categories set in Redux: 9
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:12:06.775] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:12:06.775] Browser LOG     Fetched posts: 6
+[01:12:06.775] Browser LOG     Posts set in Redux: 6
+[01:12:06.775] Browser LOG     Fetched categories: 9
+[01:12:06.775] Browser LOG     Categories set in Redux: 9
+[01:12:27.749] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:12:27.749] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:21:23.517] Server  LOG     ✓ Compiled in 1348ms
+[01:21:25.754] Server  LOG     ✓ Compiled in 436ms
+[01:21:49.057] Server  LOG     ✓ Compiled in 265ms
+[01:21:53.605] Server  LOG     ✓ Compiled in 953ms
+[01:21:59.998] Server  LOG     ✓ Compiled in 271ms
+[01:22:02.155] Server  LOG     ✓ Compiled in 353ms
+[01:22:03.928] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:22:04.193] Server  LOG     ✓ Compiled in 207ms
+[01:22:47.604] Server  LOG     ✓ Compiled in 1045ms
+[01:22:51.650] Server  WARN    Failed to set fetch cache "https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png" Error: Failed to set Next.js data cache for https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png, items over 2MB can not be cached (2116982 bytes)
+[01:22:58.911] Server  LOG     ✓ Compiled in 790ms
+[01:22:59.005] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [the-future-of-global-teams-human-ai-hybrid-workforces, (action)=>{
+                if (isActionCreator2(action)) {
+                    console.warn(getMessage(action.type));
+                }
+                return next(action);
+            }, 6] [the-future-of-global-teams-human-ai-hybrid-workforces, (action)=>{
+                if (isActionCreator2(action)) {
+                    console.warn(getMessage(action.type));
+                }
+                return next(action);
+            }, 6, 9]
+[01:23:12.927] Server  LOG     ✓ Compiled in 200ms
+[01:23:21.272] Server  LOG     ✓ Compiled in 763ms
+[01:23:28.493] Server  LOG     ✓ Compiled in 1242ms
+[01:24:44.253] Server  LOG     ✓ Compiled in 160ms
+[01:24:50.024] Server  LOG     ✓ Compiled in 165ms
+[01:25:02.952] Server  LOG     ✓ Compiled in 202ms
+[01:25:02.976] Browser ERROR   uncaughtError: ReferenceError: expandedCategories is not defined
+[01:25:04.932] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:04.979] Server  LOG     ✓ Compiled in 305ms
+[01:25:07.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:09.509] Browser LOG     Fetched categories: 9
+[01:25:09.509] Browser LOG     Categories set in Redux: 9
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:25:09.509] Browser LOG     Fetched posts: 6
+[01:25:09.509] Browser LOG     Posts set in Redux: 6
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:25:09.509] Browser LOG     Fetched posts: 6
+[01:25:09.509] Browser LOG     Posts set in Redux: 6
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:25:09.509] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:28:21.032] Server  LOG     ✓ Compiled in 183ms
+[01:28:41.345] Server  LOG     ✓ Compiled in 206ms
+[01:28:43.423] Server  LOG     ✓ Compiled in 253ms
+[01:29:38.481] Browser LOG     Fetched categories: 9
+[01:29:38.481] Browser LOG     Categories set in Redux: 9
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:29:38.481] Browser LOG     Fetched posts: 6
+[01:29:38.481] Browser LOG     Posts set in Redux: 6
+[01:29:38.481] Browser LOG     Fetched categories: 9
+[01:29:38.481] Browser LOG     Categories set in Redux: 9
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:29:38.481] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:29:38.481] Browser LOG     Fetched posts: 6
+[01:29:38.481] Browser LOG     Posts set in Redux: 6
+[01:35:13.590] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:35:13.590] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:45:35.468] Server  LOG     ✓ Compiled in 200ms
+[01:48:24.160] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:48:24.160] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:48:29.550] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:48:29.550] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:31.944] Server  LOG     ✓ Compiled in 337ms
+[01:50:36.300] Server  LOG     ✓ Compiled in 547ms
+[01:50:38.440] Server  LOG     ✓ Compiled in 164ms
+[01:50:41.165] Server  LOG     ✓ Compiled in 237ms
+[01:50:41.272] Browser ERROR   uncaughtError: ReferenceError: popularPosts is not defined
+[01:50:43.038] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:50:44.282] Server  LOG     ✓ Compiled in 176ms
+[01:50:45.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:46.402] Browser LOG     Fetched categories: 9
+[01:50:46.402] Browser LOG     Categories set in Redux: 9
+[01:50:46.402] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:50:46.540] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:50:46.540] Browser LOG     Fetched posts: 6
+[01:50:46.540] Browser LOG     Posts set in Redux: 6
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:50:46.917] Browser LOG     Fetched posts: 6
+[01:50:46.917] Browser LOG     Posts set in Redux: 6
+[01:50:46.917] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:46.953] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:50:51.573] Server  LOG     ✓ Compiled in 161ms
+[01:51:02.324] Server  LOG     ✓ Compiled in 182ms
+[01:52:56.982] Server  LOG     ✓ Compiled in 1635ms
+[01:53:20.984] Server  LOG     ✓ Compiled in 831ms
+[01:53:21.559] Server  LOG     ✓ Compiled in 675ms
+[01:53:35.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:41.197] Browser LOG     Fetched categories: 9
+[01:53:41.197] Browser LOG     Categories set in Redux: 9
+[01:53:41.198] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:53:41.198] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[01:53:41.198] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[01:53:41.198] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:53:41.198] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[01:53:41.198] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[01:53:41.198] Browser LOG     Fetched posts: 6
+[01:53:41.198] Browser LOG     Posts set in Redux: 6
+[01:53:52.200] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:53:52.200] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[01:56:03.290] Server  LOG     ✓ Compiled in 669ms
+[01:56:07.520] Server  LOG     ✓ Compiled in 802ms
+[01:56:19.841] Server  LOG     ✓ Compiled in 227ms
+[01:56:30.240] Server  LOG     ✓ Compiled in 239ms
+[01:56:55.397] Server  LOG     ✓ Compiled in 442ms
+[02:00:27.092] Server  LOG     ✓ Compiled in 1277ms
+[02:00:29.615] Server  LOG     ✓ Compiled in 587ms
+[02:00:41.024] Server  LOG     ✓ Compiled in 207ms
+[02:01:32.743] Server  LOG     ✓ Compiled in 762ms
+[02:02:02.829] Server  LOG     ✓ Compiled in 640ms
+[02:03:19.681] Server  LOG     ✓ Compiled in 535ms
+[02:03:23.590] Server  LOG     ✓ Compiled in 901ms
+[02:03:50.701] Server  WARN    Failed to set fetch cache "https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png" Error: Failed to set Next.js data cache for https://competent-shirley.72-61-78-56.plesk.page/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png, items over 2MB can not be cached (2116982 bytes)
+[02:04:07.312] Server  LOG     ✓ Compiled in 382ms
+[02:05:11.965] Server  LOG     ✓ Compiled in 227ms
+[02:05:40.346] Server  LOG     ✓ Compiled in 692ms
+[02:07:31.036] Server  LOG     ✓ Compiled in 1132ms
+[02:07:48.512] Server  LOG     ✓ Compiled in 191ms
+[02:08:03.914] Server  LOG     ✓ Compiled in 555ms
+[02:08:15.953] Server  LOG     ✓ Compiled in 1033ms
+[02:09:51.875] Server  LOG     ✓ Compiled in 331ms
+[02:10:00.684] Server  LOG     ✓ Compiled in 775ms
+[02:13:29.025] Server  LOG     ✓ Compiled in 4s
+[02:14:01.102] Server  LOG     ✓ Compiled in 393ms
+[02:14:18.334] Server  LOG     ✓ Compiled in 861ms
+[02:14:21.018] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:14:30.718] Server  LOG     ✓ Compiled in 226ms
+[02:14:54.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:54.817] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:14:54.966] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:14:55.115] Browser WARN    Image with src "/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:14:56.203] Browser LOG     Fetched categories: 9
+[02:14:56.203] Browser LOG     Categories set in Redux: 9
+[02:14:56.365] Browser LOG     Fetched categories: 9
+[02:14:56.365] Browser LOG     Categories set in Redux: 9
+[02:14:56.365] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:14:56.365] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:14:56.365] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:14:56.365] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:14:56.365] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:14:56.365] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:14:56.365] Browser LOG     Fetched posts: 6
+[02:14:56.365] Browser LOG     Posts set in Redux: 6
+[02:14:56.542] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:14:56.543] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:15:06.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:15:06.909] Browser LOG     Fetched posts: 6
+[02:15:06.909] Browser LOG     Posts set in Redux: 6
+[02:15:06.909] Browser LOG     Fetched categories: 9
+[02:15:06.909] Browser LOG     Categories set in Redux: 9
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:15:06.909] Browser LOG     Fetched categories: 9
+[02:15:06.909] Browser LOG     Categories set in Redux: 9
+[02:15:06.909] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:15:34.689] Server  LOG     ✓ Compiled in 830ms
+[02:15:43.521] Server  LOG     ✓ Compiled in 186ms
+[02:20:41.828] Server  LOG     ✓ Compiled in 335ms
+[02:21:56.638] Server  LOG     ✓ Compiled in 400ms
+[02:26:31.672] Browser LOG     Fetched categories: 9
+[02:26:31.672] Browser LOG     Categories set in Redux: 9
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:26:31.672] Browser LOG     Fetched posts: 6
+[02:26:31.672] Browser LOG     Posts set in Redux: 6
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:26:31.672] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:26:31.672] Browser LOG     Fetched posts: 6
+[02:26:31.672] Browser LOG     Posts set in Redux: 6
+[02:26:31.672] Browser LOG     Fetched categories: 9
+[02:26:31.672] Browser LOG     Categories set in Redux: 9
+[02:26:44.974] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:26:44.974] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:28:26.213] Server  LOG     ✓ Compiled in 520ms
+[02:29:05.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:07.865] Browser LOG     Fetched categories: 9
+[02:29:07.865] Browser LOG     Categories set in Redux: 9
+[02:29:07.865] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:29:08.237] Browser LOG     Fetched posts: 6
+[02:29:08.237] Browser LOG     Posts set in Redux: 6
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:29:08.237] Browser LOG     Fetched posts: 6
+[02:29:08.237] Browser LOG     Posts set in Redux: 6
+[02:29:08.237] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:30:17.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:19.849] Browser LOG     Fetched categories: 9
+[02:30:19.849] Browser LOG     Categories set in Redux: 9
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:30:20.309] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:30:20.309] Browser LOG     Fetched posts: 7
+[02:30:20.309] Browser LOG     Posts set in Redux: 7
+[02:30:24.957] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:30:25.065] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:02.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:36:04.514] Browser LOG     Fetched categories: 9
+[02:36:04.514] Browser LOG     Categories set in Redux: 9
+[02:36:04.514] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:04.669] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:04.670] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:04.901] Browser WARN    Image with src "/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:36:04.901] Browser LOG     Fetched posts: 7
+[02:36:04.901] Browser LOG     Posts set in Redux: 7
+[02:36:04.901] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:36:05.079] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:36:05.079] Browser LOG     Fetched posts: 7
+[02:36:05.079] Browser LOG     Posts set in Redux: 7
+[02:38:22.714] Server  LOG     ✓ Compiled in 224ms
+[02:38:33.298] Server  LOG     ✓ Compiled in 477ms
+[02:39:10.153] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:39:10.154] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:39:10.154] Browser LOG     Fetched posts: 7
+[02:39:10.154] Browser LOG     Posts set in Redux: 7
+[02:39:10.490] Browser LOG     Fetched categories: 9
+[02:39:10.490] Browser LOG     Categories set in Redux: 9
+[02:39:10.491] Browser LOG     Fetched categories: 9
+[02:39:10.491] Browser LOG     Categories set in Redux: 9
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:39:10.491] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:39:10.491] Browser LOG     Fetched posts: 7
+[02:39:10.491] Browser LOG     Posts set in Redux: 7
+[02:39:16.465] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:39:16.577] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:41:45.336] Server  LOG     ✓ Compiled in 1976ms
+[02:41:55.066] Server  LOG     ✓ Compiled in 942ms
+[02:42:11.440] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:42:11.587] Browser LOG     Fetched categories: 9
+[02:42:11.587] Browser LOG     Categories set in Redux: 9
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:42:12.151] Browser LOG     Fetched categories: 9
+[02:42:12.151] Browser LOG     Categories set in Redux: 9
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:42:12.151] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:42:12.151] Browser LOG     Fetched posts: 7
+[02:42:12.151] Browser LOG     Posts set in Redux: 7
+[02:42:12.499] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:42:12.499] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:11.707] Server  LOG     ✓ Compiled in 197ms
+[02:43:40.834] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:40.923] Browser LOG     Fetched categories: 9
+[02:43:40.923] Browser LOG     Categories set in Redux: 9
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:41.460] Browser LOG     Fetched posts: 7
+[02:43:41.460] Browser LOG     Posts set in Redux: 7
+[02:43:41.460] Browser LOG     Fetched categories: 9
+[02:43:41.460] Browser LOG     Categories set in Redux: 9
+[02:43:41.460] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:41.782] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:41.782] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:52.363] Browser LOG     Fetched categories: 9
+[02:43:52.363] Browser LOG     Categories set in Redux: 9
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:52.780] Browser LOG     Fetched posts: 7
+[02:43:52.780] Browser LOG     Posts set in Redux: 7
+[02:43:52.780] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:43:53.356] Browser LOG     Fetched posts: 7
+[02:43:53.356] Browser LOG     Posts set in Redux: 7
+[02:43:53.356] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:34.938] Server  LOG     ✓ Compiled in 879ms
+[02:44:38.668] Server  LOG     ✓ Compiled in 283ms
+[02:44:49.419] Browser LOG     Fetched categories: 9
+[02:44:49.419] Browser LOG     Categories set in Redux: 9
+[02:44:49.706] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:44:50.589] Browser LOG     Fetched posts: 7
+[02:44:50.589] Browser LOG     Posts set in Redux: 7
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:44:50.589] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:44:50.589] Browser LOG     Fetched posts: 7
+[02:44:50.589] Browser LOG     Posts set in Redux: 7
+[02:44:50.762] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:45:36.083] Server  LOG     ✓ Compiled in 406ms
+[02:45:44.858] Server  LOG     ✓ Compiled in 397ms
+[02:46:35.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:46:37.585] Browser LOG     Fetched categories: 9
+[02:46:37.585] Browser LOG     Categories set in Redux: 9
+[02:46:37.585] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:46:37.987] Browser LOG     Fetched posts: 7
+[02:46:37.987] Browser LOG     Posts set in Redux: 7
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[02:46:37.987] Browser LOG     Fetched posts: 7
+[02:46:37.987] Browser LOG     Posts set in Redux: 7
+[02:46:37.987] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[02:47:33.502] Server  LOG     ✓ Compiled in 274ms
+[03:30:31.273] Server  LOG     ✓ Compiled in 2.8s
+[03:30:39.352] Browser LOG     Fetched categories: 9
+[03:30:39.352] Browser LOG     Categories set in Redux: 9
+[03:30:39.352] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[03:30:40.100] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:30:40.100] Browser LOG     Fetched posts: 7
+[03:30:40.100] Browser LOG     Posts set in Redux: 7
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[03:30:40.776] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:30:40.776] Browser LOG     Fetched posts: 7
+[03:30:40.776] Browser LOG     Posts set in Redux: 7
+[03:30:41.333] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:41.778] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:42.205] Server  LOG     ✓ Compiled in 1860ms
+[03:30:42.205] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:43.406] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:30:46.511] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:30:47.497] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:31:01.328] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:31:01.328] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/blog-sect1-post-1-1767380616271-635860018.jpg","transformed":"/api/images/uploads/blog-sect1-post-1-1767380616271-635860018.jpg"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png","transformed":"/api/images/uploads/oscorm-logo-original-(1)-1767341770249-573081578.png"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"transformed":"/images/home/services/AI-2.jpg"}
+[03:31:10.771] Browser LOG     Image URL transformed: {"original":"/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg","transformed":"/api/images/uploads/WhatsApp-Image-2025-12-23-at-12.53.31-PM-1767088851442-267231074.jpeg"}
+[03:31:10.771] Browser LOG     Fetched posts: 7
+[03:31:10.771] Browser LOG     Posts set in Redux: 7
+[03:31:11.943] Browser LOG     Fetched categories: 9
+[03:31:11.943] Browser LOG     Categories set in Redux: 9
+[03:31:12.282] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:31:12.396] Browser LOG     Fetched categories: 9
+[03:31:12.396] Browser LOG     Categories set in Redux: 9
+[03:31:12.864] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:31:13.338] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:31:16.632] Server  LOG     ✓ Compiled in 6.2s
+[03:31:29.144] Server  LOG     ✓ Compiled in 804ms
+[03:31:30.944] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:31:30.944] Browser WARN    SerializableStateInvariantMiddleware took 502ms, which is more than the warning threshold of 32ms. 
+If your state or actions are very large, you may want to disable the middleware as it might cause too much of a slowdown in development mode. See https://redux-toolkit.js.org/api/getDefaultMiddleware for instructions.
+It is disabled in production builds, so you don't need to worry about that.
+[03:31:31.039] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
+[03:42:36.413] Server  LOG     ✓ Compiled in 386ms
+[03:42:38.741] Browser LOG     Image URL transformed: {"original":"/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg","transformed":"/api/images/uploads/WhyAIWontReplaceTalentItWillUpgradeI-1767427990082-111784032.jpeg"}
+[03:42:39.496] Browser LOG     Image URL transformed: {"original":"/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png","transformed":"/api/images/uploads/The-Future-of-Global-Teams-Human-+-AI-Hybrid-Workforces-1767418003322-236942001.png"}
