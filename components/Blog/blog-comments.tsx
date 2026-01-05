@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { Star } from 'lucide-react';
 
 interface Comment {
   id: string;
@@ -13,6 +14,8 @@ interface Comment {
   };
   content: string;
   date: string;
+  review?: number | null;
+  url?: string | null;
 }
 
 interface BlogCommentsProps {
@@ -25,6 +28,8 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [newComment, setNewComment] = useState('');
+  const [review, setReview] = useState<number | ''>('');
+  const [url, setUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -61,6 +66,8 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
               },
               content: item.content || item.comment || '',
               date: item.created_at || item.date || new Date().toISOString().split('T')[0],
+              review: item.review !== undefined && item.review !== null ? parseInt(item.review) : null,
+              url: item.url || null,
             }));
           setComments(transformedComments);
         } else if (data.data && Array.isArray(data.data)) {
@@ -81,6 +88,8 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
               },
               content: item.content || item.comment || '',
               date: item.created_at || item.date || new Date().toISOString().split('T')[0],
+              review: item.review !== undefined && item.review !== null ? parseInt(item.review) : null,
+              url: item.url || null,
             }));
           setComments(transformedComments);
         } else {
@@ -111,6 +120,12 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
     e.preventDefault();
     if (!name.trim() || !email.trim() || !newComment.trim() || !postId) return;
 
+    // Validate review if provided
+    if (review !== '' && (isNaN(Number(review)) || Number(review) < 1 || Number(review) > 5)) {
+      setError('Review must be a number between 1 and 5');
+      return;
+    }
+
     setIsSubmitting(true);
     setError(null);
 
@@ -126,6 +141,8 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
           name: name.trim(),
           email: email.trim(),
           content: newComment.trim(),
+          review: review !== '' ? Number(review) : null,
+          url: url.trim() || null,
         }),
       });
 
@@ -139,6 +156,8 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
         setName('');
         setEmail('');
         setNewComment('');
+        setReview('');
+        setUrl('');
         
         // Clear success message after 5 seconds
         setTimeout(() => {
@@ -233,6 +252,61 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
             required
           />
         </div>
+        <div className="mb-4">
+          <label htmlFor="url" className="block text-sm font-medium text-foreground mb-2">
+            Website URL (Optional)
+          </label>
+          <input
+            type="url"
+            id="url"
+            value={url}
+            onChange={(e) => setUrl(e.target.value)}
+            placeholder="https://your-website.com"
+            className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-foreground placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#2563eb] focus:border-transparent transition-all"
+          />
+          <p className="text-xs text-muted-foreground mt-1">
+            Add your website URL (any valid website)
+          </p>
+          
+          {/* Rating below URL */}
+          <div className="mt-3">
+            <label className="block text-sm font-medium text-foreground mb-2">
+              Rating (Optional)
+            </label>
+            <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <button
+                    key={star}
+                    type="button"
+                    onClick={() => setReview(review === star ? '' : star)}
+                    className="focus:outline-none transition-transform hover:scale-110"
+                  >
+                    <Star
+                      className={`w-6 h-6 transition-colors ${
+                        review && star <= review
+                          ? 'text-yellow-400 fill-yellow-400'
+                          : 'text-gray-300 fill-gray-200'
+                      } hover:text-yellow-400 hover:fill-yellow-400`}
+                    />
+                  </button>
+                ))}
+              </div>
+              {review && (
+                <span className="text-sm text-muted-foreground">
+                  {review === 1 && 'Poor'}
+                  {review === 2 && 'Fair'}
+                  {review === 3 && 'Good'}
+                  {review === 4 && 'Very Good'}
+                  {review === 5 && 'Excellent'}
+                </span>
+              )}
+            </div>
+            <p className="text-xs text-muted-foreground mt-1">
+              Click stars to rate (1-5)
+            </p>
+          </div>
+        </div>
         <div className="flex justify-end">
           <button
             type="submit"
@@ -278,10 +352,43 @@ export default function BlogComments({ postId, postSlug }: BlogCommentsProps) {
 
                 {/* Comment Content */}
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap">
                     <h4 className="font-semibold text-foreground text-base">{comment.author.name}</h4>
                     <span className="text-xs text-muted-foreground">•</span>
                     <span className="text-xs text-muted-foreground">{formatDate(comment.date)}</span>
+                    {comment.review && (
+                      <>
+                        <span className="text-xs text-muted-foreground">•</span>
+                        <div className="flex items-center gap-1">
+                          {[1, 2, 3, 4, 5].map((star) => (
+                            <Star
+                              key={star}
+                              className={`w-3 h-3 ${
+                                star <= comment.review!
+                                  ? 'text-yellow-400 fill-yellow-400'
+                                  : 'text-gray-300 fill-gray-200'
+                              }`}
+                            />
+                          ))}
+                          <span className="text-xs text-foreground font-medium ml-1">
+                            ({comment.review}/5)
+                          </span>
+                        </div>
+                      </>
+                    )}
+                    {comment.url && (
+                      <>
+                        <span className="text-xs text-muted-foreground">•</span>
+                        <a
+                          href={comment.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs text-[#2563eb] hover:underline"
+                        >
+                          Website
+                        </a>
+                      </>
+                    )}
                   </div>
                   <p className="text-foreground leading-relaxed whitespace-pre-wrap">
                     {comment.content}

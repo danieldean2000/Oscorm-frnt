@@ -137,6 +137,11 @@ const fetchWithTimeout = async (url: string, options: RequestInit, timeout = 100
             ...options,
             signal: controller.signal,
         });
+        console.log('response', response)
+        console.log('options', options)
+        console.log('url', url)
+        console.log('controller', controller)
+        console.log('id', id)
         clearTimeout(id);
         return response;
     } catch (error: any) {

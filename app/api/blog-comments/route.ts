@@ -5,7 +5,7 @@ const API_URL = 'https://competent-shirley.72-61-78-56.plesk.page';
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        const { postId, name, email, content } = body;
+        const { postId, name, email, content, review, url: websiteUrl } = body;
 
         // Validate required fields
         if (!postId || !name || !email || !content) {
@@ -16,6 +16,20 @@ export async function POST(request: NextRequest) {
                 },
                 { status: 400 }
             );
+        }
+
+        // Validate review if provided (must be between 1 and 5)
+        if (review !== undefined && review !== null) {
+            const reviewNum = parseInt(review);
+            if (isNaN(reviewNum) || reviewNum < 1 || reviewNum > 5) {
+                return NextResponse.json(
+                    { 
+                        success: false, 
+                        message: 'Review must be a number between 1 and 5' 
+                    },
+                    { status: 400 }
+                );
+            }
         }
 
         // Validate email format
@@ -31,9 +45,9 @@ export async function POST(request: NextRequest) {
         }
 
         // POST to external API
-        const url = `${API_URL}/api/blog-comments`;
+        const apiUrl = `${API_URL}/api/blog-comments`;
         
-        const response = await fetch(url, {
+        const response = await fetch(apiUrl, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -44,6 +58,8 @@ export async function POST(request: NextRequest) {
                 name: name.trim(),
                 email: email.trim(),
                 content: content.trim(),
+                review: review !== undefined && review !== null ? parseInt(review) : null,
+                url: websiteUrl ? websiteUrl.trim() : null,
                 is_approved: false, // Comments need admin approval before showing
             }),
         });
@@ -92,9 +108,9 @@ export async function GET(request: NextRequest) {
 
         // Only fetch approved comments for public display
         const isApproved = searchParams.get('is_approved') || 'true';
-        const url = `${API_URL}/api/blog-comments?post_id=${postId}&is_approved=${isApproved}`;
+        const apiUrl = `${API_URL}/api/blog-comments?post_id=${postId}&is_approved=${isApproved}`;
         
-        const response = await fetch(url, {
+        const response = await fetch(apiUrl, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
