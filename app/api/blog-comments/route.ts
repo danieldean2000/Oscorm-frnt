@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://competent-shirley.72-61-78-56.plesk.page';
 
 export async function POST(request: NextRequest) {
     try {

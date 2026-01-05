@@ -12,7 +12,7 @@ export default function FeaturedBlogCard({ post }: FeaturedBlogCardProps) {
       href={`/blog/${post.slug}`} 
       className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col hover:-translate-y-1"
     >
-      <div className="relative w-full h-44 sm:h-48 overflow-hidden bg-gray-200">
+      <div className="relative w-full aspect-video overflow-hidden bg-gray-200">
         <div className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-sm w-8 h-8 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform rotate-45">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#2563eb" className="rotate-[-45deg]">
             <path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h2.6v-6H19v-2l-2-2z" />
