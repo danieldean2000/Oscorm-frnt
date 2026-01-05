@@ -12,7 +12,6 @@ import FeaturedBlogCard from '@/components/Blog/featured-blog-card';
 import BlogCard from '@/components/Blog/blog-card';
 import CategoryTabs from '@/components/Blog/category-tabs';
 import CtaSection from '@/components/Home/cta';
-import { Button } from '@/components/ui/button';
 
 function BlogPageContent() {
     const dispatch = useDispatch();
@@ -23,10 +22,12 @@ function BlogPageContent() {
     const categoriesLoading = useSelector((state: RootState) => state.blog.categoriesLoading);
     const error = useSelector((state: RootState) => state.blog.error);
 
-    // Get category from URL params
+    // Get category and page from URL params
     const categoryFromUrl = searchParams.get('category');
+    const pageFromUrl = searchParams.get('page');
     const [activeTab, setActiveTab] = useState(categoryFromUrl || 'All');
-    const [visibleCount, setVisibleCount] = useState(9);
+    const [currentPage, setCurrentPage] = useState(pageFromUrl ? parseInt(pageFromUrl) : 1);
+    const postsPerPage = 9;
 
     // Fetch posts and categories from API on component mount
     useEffect(() => {
@@ -34,15 +35,20 @@ function BlogPageContent() {
         dispatch(fetchCategories() as any);
     }, [dispatch]);
 
-    // Update active tab when URL param changes
+    // Update active tab and page when URL param changes
     useEffect(() => {
         if (categoryFromUrl) {
             setActiveTab(categoryFromUrl);
-            setVisibleCount(9); // Reset visible count when category changes
         } else {
             setActiveTab('All');
         }
-    }, [categoryFromUrl]);
+        
+        if (pageFromUrl) {
+            setCurrentPage(parseInt(pageFromUrl));
+        } else {
+            setCurrentPage(1);
+        }
+    }, [categoryFromUrl, pageFromUrl]);
 
     // Build categories array with "All" option + dynamic categories
     const categoryNames = ['All', ...categories.map(cat => cat.name)];
@@ -55,22 +61,30 @@ function BlogPageContent() {
     // Get featured posts (last 3 published posts, most recent first)
     const featuredPosts = posts.length > 0 ? [...posts].slice(-3).reverse() : [];
 
-    // Get visible posts based on count
-    const visiblePosts = filteredPosts.slice(0, visibleCount);
-    const hasMore = visibleCount < filteredPosts.length;
+    // Calculate pagination
+    const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+    const startIndex = (currentPage - 1) * postsPerPage;
+    const endIndex = startIndex + postsPerPage;
+    const visiblePosts = filteredPosts.slice(startIndex, endIndex);
 
-    // Reset visible count when tab changes
+    // Reset to page 1 when tab changes
     const handleTabChange = (category: string) => {
         setActiveTab(category);
-        setVisibleCount(9);
+        setCurrentPage(1);
         // Update URL without page reload
         const url = category === 'All' ? '/blog' : `/blog?category=${encodeURIComponent(category)}`;
         window.history.pushState({}, '', url);
     };
 
-    // Load more posts
-    const handleLoadMore = () => {
-        setVisibleCount(prev => prev + 9);
+    // Handle page change
+    const handlePageChange = (page: number) => {
+        setCurrentPage(page);
+        // Update URL with page number
+        const categoryParam = activeTab === 'All' ? '' : `category=${encodeURIComponent(activeTab)}&`;
+        const url = `/blog?${categoryParam}page=${page}`;
+        window.history.pushState({}, '', url);
+        // Scroll to top of blog grid
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
@@ -140,15 +154,71 @@ function BlogPageContent() {
                         </div>
                     )}
 
-                    {/* View More Button */}
-                    {hasMore && (
-                        <div className="flex justify-center mt-8 sm:mt-12">
-                            <Button
-                                onClick={handleLoadMore}
-                                className="px-8 py-6 bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-semibold text-base rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
+                    {/* Pagination */}
+                    {!loading && filteredPosts.length > postsPerPage && (
+                        <div className="flex justify-center items-center gap-2 mt-8 sm:mt-12">
+                            {/* Previous Button */}
+                            <button
+                                onClick={() => handlePageChange(currentPage - 1)}
+                                disabled={currentPage === 1}
+                                className="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer transition-colors"
+                                aria-label="Previous page"
                             >
-                                View More
-                            </Button>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+
+                            {/* Page Numbers */}
+                            <div className="flex items-center gap-1 sm:gap-2">
+                                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                                    // Show first page, last page, current page, and pages around current
+                                    const showPage = 
+                                        page === 1 || 
+                                        page === totalPages || 
+                                        (page >= currentPage - 1 && page <= currentPage + 1);
+                                    
+                                    if (!showPage) {
+                                        // Show ellipsis
+                                        if (page === currentPage - 2 || page === currentPage + 2) {
+                                            return (
+                                                <span key={page} className="px-2 text-gray-500 dark:text-gray-400">
+                                                    ...
+                                                </span>
+                                            );
+                                        }
+                                        return null;
+                                    }
+
+                                    return (
+                                        <button
+                                            key={page}
+                                            onClick={() => handlePageChange(page)}
+                                            className={`min-w-[40px] px-3 py-2 rounded-lg font-medium cursor-pointer transition-colors ${
+                                                currentPage === page
+                                                    ? 'bg-[#2563eb] text-white hover:bg-[#1d4ed8]'
+                                                    : 'border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'
+                                            }`}
+                                            aria-label={`Go to page ${page}`}
+                                            aria-current={currentPage === page ? 'page' : undefined}
+                                        >
+                                            {page}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+
+                            {/* Next Button */}
+                            <button
+                                onClick={() => handlePageChange(currentPage + 1)}
+                                disabled={currentPage === totalPages}
+                                className="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer transition-colors"
+                                aria-label="Next page"
+                            >
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
                         </div>
                     )}
                 </div>

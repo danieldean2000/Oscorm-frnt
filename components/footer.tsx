@@ -2,13 +2,15 @@
 
 import Link from 'next/link';
 import { Facebook, Linkedin, Twitter, Youtube, Instagram, ChevronUp } from 'lucide-react';
-
+import Newsletter from './news-latter';
 export default function Footer() {
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
+        <>
+        <Newsletter />
         <footer className="bg-[#0B1221] text-white relative overflow-hidden">
             {/* Subtle background gradient */}
             <div className="absolute inset-0 bg-gradient-to-b from-blue-900/5 to-transparent pointer-events-none" />
@@ -221,5 +223,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
+        </>
     );
 }

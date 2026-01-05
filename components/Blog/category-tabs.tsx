@@ -13,7 +13,7 @@ export default function CategoryTabs({ categories, activeTab, onTabChange }: Cat
         <button
           key={category}
           onClick={() => onTabChange(category)}
-          className={`px-4 sm:px-6 py-3 text-sm sm:text-base font-semibold whitespace-nowrap transition-all duration-300 relative border-b-3 border-transparent mb-[-2px] ${
+          className={`px-4 sm:px-6 py-3 text-sm sm:text-base font-semibold whitespace-nowrap transition-all duration-300 relative border-b-3 border-transparent mb-[-2px] cursor-pointer ${
             activeTab === category
               ? 'text-[#2563eb] border-[#2563eb]'
               : 'text-muted-foreground hover:text-[#2563eb]'
