@@ -166,7 +166,6 @@ export const fetchAllPosts = createAsyncThunk(
                 },
                 15000 // 15 second timeout
             );
-            
             // Check if response is ok before parsing JSON
             if (!response.ok) {
                 // Try to parse error message from response
@@ -209,7 +208,7 @@ export const fetchAllPosts = createAsyncThunk(
             const transformedPosts = postsArray.map(transformPost);
             
             // Log for debugging
-            console.log('Fetched posts:', transformedPosts.length);
+            console.log('Fetched posts:', transformedPosts);
             
             return transformedPosts;
         } catch (error: any) {

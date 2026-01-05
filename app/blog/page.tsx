@@ -22,7 +22,7 @@ function BlogPageContent() {
     const loading = useSelector((state: RootState) => state.blog.loading);
     const categoriesLoading = useSelector((state: RootState) => state.blog.categoriesLoading);
     const error = useSelector((state: RootState) => state.blog.error);
-    
+
     // Get category from URL params
     const categoryFromUrl = searchParams.get('category');
     const [activeTab, setActiveTab] = useState(categoryFromUrl || 'All');
@@ -76,7 +76,7 @@ function BlogPageContent() {
     return (
         <div className="min-h-screen bg-background overflow-x-hidden">
             <Header />
-            
+
             {/* Hero Section */}
             <div className="w-full px-4 sm:px-6 md:px-8 overflow-x-hidden">
                 <BlogHero />
@@ -126,6 +126,8 @@ function BlogPageContent() {
                     {!loading && visiblePosts.length > 0 && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
                             {visiblePosts.map((post) => (
+
+
                                 <BlogCard key={post.id} post={post} />
                             ))}
                         </div>
@@ -153,9 +155,9 @@ function BlogPageContent() {
             </section>
 
             {/* CTA Section */}
-           
-                <CtaSection />
-        
+
+            <CtaSection />
+
             <Footer />
         </div>
     );

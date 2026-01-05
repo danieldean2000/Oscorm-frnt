@@ -8,13 +8,13 @@ interface BlogCardProps {
 
 export default function BlogCard({ post }: BlogCardProps) {
   return (
-    <Link 
-      href={`/blog/${post.slug}`} 
+    <Link
+      href={`/blog/${post.slug}`}
       className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col hover:-translate-y-1"
     >
       <div className="relative w-full h-48 sm:h-52 overflow-hidden bg-gray-200">
-        <Image 
-          src={post.image} 
+        <Image
+          src='https://competent-shirley.72-61-78-56.plesk.page/uploads/ProofofWorkTheEndofBlindOutsourcin-1767591787002-260966280.jpeg'
           alt={post.title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
